@@ -1,6 +1,5 @@
 % Incremental λ-Calculus
 % Paolo G. Giarrusso
-% 2014-05-04
 
 # Introduction
 
@@ -44,9 +43,12 @@ This project benefited from code and ideas of many different people:
 Further acknowledgments in the paper itself.
 
 # News
+- 2014-06-07: Sources online on GitHub --- see
+  [inc-lc/ilc-scala](https://github.com/inc-lc/ilc-scala) and
+  [inc-lc/ilc-agda](https://github.com/inc-lc/ilc-agda).
 - 2014-05-04: Author's version of the paper camera-ready finally online.
 - 2014-03-15: The AEC submission was found to "meet or exceed expectations"!
-- 2014-02-21: [Link to the AEC submission](ILC/AEC/).
+- 2014-02-21: [Link to the AEC submission](AEC.html).
 - 2014-02-10: Submission to the artifact evaluation committee (AEC) evaluation
 - 2014-02-05: Website online
 - 2014-02-03: Our first paper on this project was accepted for PLDI '14! The
