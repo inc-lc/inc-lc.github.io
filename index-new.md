@@ -1,6 +1,7 @@
 % Incremental λ-Calculus
 % Paolo G. Giarrusso
 % 2014-05-04
+
 # Introduction
 
 This is the homepage for the **Incremental λ-Calculus** project. Our goal is to
