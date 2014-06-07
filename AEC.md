@@ -9,11 +9,9 @@ This is the submission to the PLDI 2014 Artifact Evaluation
 Committee for the paper:
 
   * Yufei Cai, Paolo G. Giarrusso, Tillmann Rendel, Klaus Ostermann.  
-    **A Theory of Changes for Higher-Order Languages:**  
-    **Incrementalizing λ-Calculi by Static Differentiation.**  
+    [**A Theory of Changes for Higher-Order Languages:**  
+    **Incrementalizing λ-Calculi by Static Differentiation.**](http://www.informatik.uni-marburg.de/~pgiarrusso/papers/pldi14-ilc-author-final.pdf)  
     *To appear* at PLDI, ACM 2014.
-
-    [Accepted version of the paper](ilc-submitted.pdf)
 
 We submit three artifacts:
 
@@ -27,7 +25,7 @@ We submit three artifacts:
 Quick Start
 ===========
 
-  * Download the [Virtual Machine Image](ilc-vm.ova) (~1.8GiB).
+  * Download the [Virtual Machine Image](http://www.informatik.uni-marburg.de/~pgiarrusso/ILC/AEC/ilc-vm.ova) (~1.8GiB).
 
   * Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads) version 4.3.6 ([why?](#why-virtualbox-4.3.6)).
 
@@ -59,30 +57,30 @@ we also provide the following alternatives:
 
   * Formalization in Agda.
 
-    Reviewers can [download the Agda code](ilc-agda.zip),
-    [view Agda code in their browser](agda/README.html)
+    Reviewers can [download the Agda code](http://www.informatik.uni-marburg.de/~pgiarrusso/ILC/AEC/ilc-agda.zip),
+    [view Agda code in their browser](http://www.informatik.uni-marburg.de/~pgiarrusso/ILC/AEC/agda/README.html)
     or use the virtual machine image (see below).
     More information about this artifact is in
-    [`agda/README.agda`](agda/README.html).
+    [`agda/README.agda`](http://www.informatik.uni-marburg.de/~pgiarrusso/ILC/AEC/agda/README.html).
 
     Note that the virtual machine image includes Agda (for type
     checking) and Emacs (for viewing and editing). We are not
     aware of any other Agda IDE. If you don't want to use Emacs,
-    you can [view the Agda code in your browser](agda/README.html).
+    you can [view the Agda code in your browser](http://www.informatik.uni-marburg.de/~pgiarrusso/ILC/AEC/agda/README.html).
     It is fully syntax-highlighted and cross-referenced, so for
     just reading the code, you don't lose much over using Emacs.
 
   * Implementation in Scala.
 
-    Reviewers can [download the Scala code](ilc-scala-prototype.zip)
+    Reviewers can [download the Scala code](http://www.informatik.uni-marburg.de/~pgiarrusso/ILC/AEC/ilc-scala-prototype.zip)
     or use the virtual machine image (see below).
     More information about this artifact is in
-    [`scala-prototype/README.md`](scala-prototype/README.html).
+    [`scala-prototype/README.md`](http://www.informatik.uni-marburg.de/~pgiarrusso/ILC/AEC/scala-prototype/README.html).
 
     Note that the virtual machine image includes SBT (for
     compilation) and the Eclipse-bases Scala IDE (for viewing and
     editing). If you want to use a different IDE for Scala, you
-    have to [download the Scala code](ilc-scala-prototype.zip)
+    have to [download the Scala code](http://www.informatik.uni-marburg.de/~pgiarrusso/ILC/AEC/ilc-scala-prototype.zip)
     and set up SBT and the IDE of your choice.
 
     If you install SBT on your own machine, make sure to run it with at least 8M of
@@ -91,11 +89,11 @@ we also provide the following alternatives:
 
   * Benchmark results.
 
-    Reviewers can [download the data](ilc-graphs.zip),
-    [view the data in their browser](graphs/README.html)
+    Reviewers can [download the data](http://www.informatik.uni-marburg.de/~pgiarrusso/ILC/AEC/ilc-graphs.zip),
+    [view the data in their browser](http://www.informatik.uni-marburg.de/~pgiarrusso/ILC/AEC/graphs/README.html)
     or use the virtual machine image (see below).
     More information about this artifact is in
-    [`graphs/README.md`](graphs/README.html).
+    [`graphs/README.md`](http://www.informatik.uni-marburg.de/~pgiarrusso/ILC/AEC/graphs/README.html).
 
 Virtual Machine Image
 =====================
@@ -105,7 +103,7 @@ well as the software we used to create and use the
 artifacts. Except maybe for Agda or Scala power users, this is
 probably the easiest way to interact with the artifacts.
 
-  * [Virtual Machine Image](ilc-vm.ova) (~1.8GiB)
+  * [Virtual Machine Image](http://www.informatik.uni-marburg.de/~pgiarrusso/ILC/AEC/ilc-vm.ova) (~1.8GiB)
 
 This virtual machine contains a Ubuntu system.
 Inside the virtual machine, you will also find on the desktop:
