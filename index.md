@@ -9,7 +9,6 @@ finite differencing, and apply it to higher-order languages.
 
 # Papers
   - [A theory of changes for higher-order languages — incrementalizing λ-calculi by static differentiation](http://www.informatik.uni-marburg.de/~pgiarrusso/papers/pldi14-ilc-author-final.pdf) (updated version). With Yufei Cai, Tillmann Rendel, and Klaus Ostermann. Accepted at PLDI '14.
-<!--	[Old version](http://www.informatik.uni-marburg.de/~pgiarrusso/papers/pldi14-ilc-2014-02-05.pdf).-->
 
     **Abstract**:
 
@@ -57,5 +56,3 @@ Further acknowledgments in the paper itself.
 # Contacts
 For any question or suggestion, feel free to contact me, Paolo G. Giarrusso, at
 pgiarrusso (at) informatik !dot! uni-marburg !dot! de.
-
-[JDKLink]: http://rpmfind.net/linux/RPM/centos/updates/6.2/x86_64/Packages/java-1.6.0-openjdk-1.6.0.0-1.43.1.10.6.el6_2.x86_64.html
