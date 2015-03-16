@@ -42,7 +42,7 @@ This project benefited from code and ideas of many different people:
 Further acknowledgments in the paper itself.
 
 # News
-- 2015-03-16: [Slides of the talk online](resources/2015-01-22 ILC Paris.pdf).
+- 2015-03-16: [Slides of the Paris talk online](resources/2015-01-22 ILC Paris.pdf).
 - 2015-01-22:
   [Talk about ILC project at the Paris Diderot (Paris 7) University](http://blaisorblade.github.io/blog/2015/01/15/a-talk-on-ilc/).
 - 2014-06-07: Sources online on GitHub --- see
