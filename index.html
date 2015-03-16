@@ -18,7 +18,7 @@
 <p>This is the homepage for the <strong>Incremental λ-Calculus</strong> project. Our goal is to extend database technology for low-overhead incremental computation, based on finite differencing, and apply it to higher-order languages.</p>
 <h1 id="papers">Papers</h1>
 <ul class="incremental">
-<li><p><a href="http://www.informatik.uni-marburg.de/~pgiarrusso/papers/pldi14-ilc-author-final.pdf">A theory of changes for higher-order languages — incrementalizing λ-calculi by static differentiation</a> (updated version). With Yufei Cai, Tillmann Rendel, and Klaus Ostermann. Accepted at PLDI ’14. <!--    [Old version](http://www.informatik.uni-marburg.de/~pgiarrusso/papers/pldi14-ilc-2014-02-05.pdf).--></p>
+<li><p><a href="resources/pldi14-ilc-author-final.pdf">A theory of changes for higher-order languages — incrementalizing λ-calculi by static differentiation</a> (updated version). With Yufei Cai, Tillmann Rendel, and Klaus Ostermann. PLDI ’14, pp. 145–155.</p>
 <p><strong>Abstract</strong>:</p>
 <p>If the result of an expensive computation is invalidated by a small change to the input, the old result should be updated incrementally instead of reexecuting the whole computation. We incrementalize programs through their <em>derivative</em>. A derivative maps changes in the program’s input directly to changes in the program’s output, without reexecuting the original program. We present a program transformation taking programs to their derivatives, which is fully static and automatic, supports first-class functions, and produces derivatives amenable to standard optimization.</p>
 <p>We prove the program transformation correct in Agda for a family of simply-typed λ-calculi, parameterized by base types and primitives. A precise interface specifies what is required to incrementalize the chosen primitives.</p>
@@ -35,6 +35,8 @@
 <p>Further acknowledgments in the paper itself.</p>
 <h1 id="news">News</h1>
 <ul class="incremental">
+<li>2015-03-16: <a href="resources/2015-01-22%20ILC%20Paris.pdf">Slides of the talk online</a>.</li>
+<li>2015-01-22: <a href="http://blaisorblade.github.io/blog/2015/01/15/a-talk-on-ilc/">Talk about ILC project at the Paris Diderot (Paris 7) University</a>.</li>
 <li>2014-06-07: Sources online on GitHub — see <a href="https://github.com/inc-lc/ilc-scala">inc-lc/ilc-scala</a> and <a href="https://github.com/inc-lc/ilc-agda">inc-lc/ilc-agda</a>.</li>
 <li>2014-05-04: Author’s version of the paper camera-ready finally online.</li>
 <li>2014-03-15: The AEC submission was found to “meet or exceed expectations”!</li>
