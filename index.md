@@ -8,7 +8,7 @@ extend database technology for low-overhead incremental computation, based on
 finite differencing, and apply it to higher-order languages.
 
 # Papers
-  - [A theory of changes for higher-order languages — incrementalizing λ-calculi by static differentiation](http://www.informatik.uni-marburg.de/~pgiarrusso/papers/pldi14-ilc-author-final.pdf) (updated version). With Yufei Cai, Tillmann Rendel, and Klaus Ostermann. Accepted at PLDI '14.
+  - [A theory of changes for higher-order languages — incrementalizing λ-calculi by static differentiation](resources/pldi14-ilc-author-final.pdf) (updated version). With Yufei Cai, Tillmann Rendel, and Klaus Ostermann. PLDI '14, pp. 145--155.
 
     **Abstract**:
 
