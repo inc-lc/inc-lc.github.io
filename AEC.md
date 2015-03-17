@@ -1,4 +1,4 @@
-% Incremental λ-Calculus
+% Incremental λ-Calculus: Artifact Evaluation
 % Yufei Cai
   Paolo G. Giarrusso
   Tillmann Rendel
