@@ -1,5 +1,8 @@
-% Incremental λ-Calculus
-% Paolo G. Giarrusso
+---
+title: Incremental λ-Calculus
+author: Paolo G. Giarrusso
+layout: page
+---
 
 # Introduction
 

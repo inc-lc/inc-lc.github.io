@@ -1,9 +1,8 @@
-% Incremental λ-Calculus: Artifact Evaluation
-% Yufei Cai
-  Paolo G. Giarrusso
-  Tillmann Rendel
-  Klaus Ostermann
-% University of Marburg
+---
+title: Incremental λ-Calculus: Artifact Evaluation
+author: Yufei Cai, Paolo G. Giarrusso, Tillmann Rendel, Klaus Ostermann
+layout: page
+---
 
 This is the submission to the PLDI 2014 Artifact Evaluation
 Committee for the paper:
