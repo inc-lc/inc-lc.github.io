@@ -58,4 +58,4 @@ Further acknowledgments in the paper itself.
 
 # Contacts
 For any question or suggestion, feel free to contact me, Paolo G. Giarrusso, at
-pgiarrusso (at) informatik !dot! uni-marburg !dot! de.
+paolo !dot! giarrusso (at) uni-tuebingen !dot! de.
