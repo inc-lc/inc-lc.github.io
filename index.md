@@ -7,6 +7,13 @@ This is the homepage for the **Incremental λ-Calculus** project. Our goal is to
 extend database technology for low-overhead incremental computation, based on
 finite differencing, and apply it to higher-order languages.
 
+# Sources
+
+On GitHub!
+
+- [Scala prototype --- inc-lc/ilc-scala](https://github.com/inc-lc/ilc-scala)
+- [Agda machine-checked proofs --- inc-lc/ilc-agda](https://github.com/inc-lc/ilc-agda).
+
 # Papers
   - [A theory of changes for higher-order languages — incrementalizing λ-calculi by static differentiation](resources/pldi14-ilc-author-final.pdf) (updated version). With Yufei Cai, Tillmann Rendel, and Klaus Ostermann. PLDI '14, pp. 145--155.
 
