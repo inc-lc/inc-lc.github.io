@@ -24,7 +24,9 @@ On GitHub!
     - A reformulation of that proof using (step-indexed) logical relations and
       operational semantics, for simply-typed λ-calculus (without or with
       recursion) and untyped λ-calculus (Appendix C).
-    This is a draft, and Chapter 17 is known to contain a few mistakes.
+
+    This is a draft, and Chapter 17 is known to contain a few mistakes and
+    infelicities.
 
 # Papers
   - [A theory of changes for higher-order languages — incrementalizing λ-calculi by static differentiation](resources/pldi14-ilc-author-final.pdf) (updated version). With Yufei Cai, Tillmann Rendel, and Klaus Ostermann. PLDI '14, pp. 145--155.
