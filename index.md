@@ -14,6 +14,18 @@ On GitHub!
 - [Scala prototype --- inc-lc/ilc-scala](https://github.com/inc-lc/ilc-scala)
 - [Agda machine-checked proofs --- inc-lc/ilc-agda](https://github.com/inc-lc/ilc-agda).
 
+# Drafts
+  - [Optimizing and Incrementalizing Higher-order Collection Queries by AST
+    Transformation](resources/giarrusso-phd-thesis-2017-09-15-15.05-g22ca048.pdf).
+    Draft of Paolo G. Giarrusso's PhD thesis.
+    Some highlights:
+    - A novel, simpler correctness proof for ILC on simply-typed λ-calculus,
+      where validity is captured by a logical relation (Ch. 12-13-14).
+    - A reformulation of that proof using (step-indexed) logical relations and
+      operational semantics, for simply-typed λ-calculus (without or with
+      recursion) and untyped λ-calculus (Appendix C).
+    This is a draft, and Chapter 17 is known to contain a few mistakes.
+
 # Papers
   - [A theory of changes for higher-order languages — incrementalizing λ-calculi by static differentiation](resources/pldi14-ilc-author-final.pdf) (updated version). With Yufei Cai, Tillmann Rendel, and Klaus Ostermann. PLDI '14, pp. 145--155.
 
