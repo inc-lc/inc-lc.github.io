@@ -29,6 +29,8 @@ On GitHub!
     infelicities.
 
 # Papers
+  - [Incremental λ-Calculus in Cache-Transfer Style --- Static Memoization by Program Transformation](https://link.springer.com/chapter/10.1007/978-3-030-17184-1_20).
+  With Yann Régis-Gianas and Philipp Schuster. ESOP'19. Implementation and Coq formalization [available](https://github.com/yurug/cts). [Extended version](https://github.com/yurug/cts/blob/ae1bf7b4b7ef82167324c7ce18dc3785b7dcaab7/static-caching-extended.pdf). 
   - [A theory of changes for higher-order languages — incrementalizing λ-calculi by static differentiation](resources/pldi14-ilc-author-final.pdf) (updated version). With Yufei Cai, Tillmann Rendel, and Klaus Ostermann. PLDI '14, pp. 145--155.
 
     **Abstract**:
@@ -59,6 +61,8 @@ This project benefited from code and ideas of many different people:
 - Paolo G. Giarrusso
 - Tillmann Rendel
 - Klaus Ostermann
+- Yann Régis-Gianas
+- Philipp Schuster
 
 Further acknowledgments in the paper itself.
 
