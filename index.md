@@ -7,31 +7,20 @@ This is the homepage for the **Incremental λ-Calculus** project. Our goal is to
 extend database technology for low-overhead incremental computation, based on
 finite differencing, and apply it to higher-order languages.
 
-# Sources
-
-On GitHub!
-
-- [Scala prototype --- inc-lc/ilc-scala](https://github.com/inc-lc/ilc-scala)
-- [Agda machine-checked proofs --- inc-lc/ilc-agda](https://github.com/inc-lc/ilc-agda).
-
-# Drafts
-  - [Optimizing and Incrementalizing Higher-order Collection Queries by AST
-    Transformation](resources/giarrusso-phd-thesis-2017-09-15-15.05-g22ca048.pdf).
-    Draft of Paolo G. Giarrusso's PhD thesis.
-    Some highlights:
-    - A novel, simpler correctness proof for ILC on simply-typed λ-calculus,
-      where validity is captured by a logical relation (Ch. 12-13-14).
-    - A reformulation of that proof using (step-indexed) logical relations and
-      operational semantics, for simply-typed λ-calculus (without or with
-      recursion) and untyped λ-calculus (Appendix C).
-
-    This is a draft, and Chapter 17 is known to contain a few mistakes and
-    infelicities.
-
-# Papers
-  - [Incremental λ-Calculus in Cache-Transfer Style --- Static Memoization by Program Transformation](https://link.springer.com/chapter/10.1007/978-3-030-17184-1_20).
-  With Yann Régis-Gianas and Philipp Schuster. ESOP'19. Implementation and Coq formalization [available](https://github.com/yurug/cts). [Extended version](https://github.com/yurug/cts/blob/ae1bf7b4b7ef82167324c7ce18dc3785b7dcaab7/static-caching-extended.pdf). 
-  - [A theory of changes for higher-order languages — incrementalizing λ-calculi by static differentiation](resources/pldi14-ilc-author-final.pdf) (updated version). With Yufei Cai, Tillmann Rendel, and Klaus Ostermann. PLDI '14, pp. 145--155.
+# Publications
+  - [Incremental λ-Calculus in Cache-Transfer Style --- Static Memoization by
+    Program Transformation](https://link.springer.com/chapter/10.1007/978-3-030-17184-1_20).
+    Paolo G. Giarrusso, Yann Régis-Gianas and Philipp Schuster. ESOP 2019.
+    Supersedes Chapter 17 of Giarrusso's PhD thesis.
+    - [Extended version](https://github.com/yurug/cts/blob/ae1bf7b4b7ef82167324c7ce18dc3785b7dcaab7/static-caching-extended.pdf).
+    - Supplementary material: [Implementation and Coq
+      formalization](https://github.com/yurug/cts).
+  - [A theory of changes for higher-order languages — incrementalizing λ-calculi
+    by static differentiation](resources/pldi14-ilc-author-final.pdf) (updated
+    version). Yufei Cai, Paolo G. Giarrusso, Tillmann Rendel and Klaus Ostermann.
+    PLDI 2014, pp. 145--155.
+    - [Scala prototype --- inc-lc/ilc-scala](https://github.com/inc-lc/ilc-scala)
+    - [Agda machine-checked proofs --- inc-lc/ilc-agda](https://github.com/inc-lc/ilc-agda).
 
     **Abstract**:
 
@@ -54,6 +43,19 @@ On GitHub!
     transformation, a plugin and improve performance of a nontrivial program by
     orders of magnitude.
 
+  - [Optimizing and Incrementalizing Higher-order Collection Queries by AST
+    Transformation](resources/giarrusso-phd-thesis-2020-final.pdf).
+    Paolo G. Giarrusso's PhD thesis.
+    Some highlights:
+    - A novel, simpler correctness proof for ILC on simply-typed λ-calculus,
+      where validity is captured by a logical relation (Ch. 12-13-14).
+    - A reformulation of that proof using (step-indexed) logical relations and
+      operational semantics, for simply-typed λ-calculus (without or with
+      recursion) and untyped λ-calculus (Appendix C).
+
+    Chapter 17 is superseded by the extended version of the ESOP'19 paper.
+    - [Agda machine-checked proofs --- inc-lc/ilc-agda/Thesis](https://github.com/inc-lc/ilc-agda/tree/master/Thesis/), for Ch. 12-14.
+
 # Credits
 This project benefited from code and ideas of many different people:
 
@@ -61,10 +63,11 @@ This project benefited from code and ideas of many different people:
 - Paolo G. Giarrusso
 - Tillmann Rendel
 - Klaus Ostermann
+- Lourdes Del Carmen Gonzàlez Huesca
 - Yann Régis-Gianas
 - Philipp Schuster
 
-Further acknowledgments in the paper itself.
+Further acknowledgments in each publication.
 
 # News
 - 2015-03-16: [Slides of the Paris talk online](resources/2015-01-22 ILC Paris.pdf).
@@ -83,4 +86,4 @@ Further acknowledgments in the paper itself.
 
 # Contacts
 For any question or suggestion, feel free to contact me, Paolo G. Giarrusso, at
-paolo !dot! giarrusso (at) uni-tuebingen !dot! de.
+p !dot! giarrusso (at) gmail !dot! com.
