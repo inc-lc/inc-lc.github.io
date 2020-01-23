@@ -56,6 +56,13 @@ finite differencing, and apply it to higher-order languages.
     Chapter 17 is superseded by the extended version of the ESOP'19 paper.
     - [Agda machine-checked proofs --- inc-lc/ilc-agda/Thesis](https://github.com/inc-lc/ilc-agda/tree/master/Thesis/), for Ch. 12-14.
 
+# Related papers
+By other authors:
+
+- [Seminaïve evaluation for a higher-order functional
+  language](https://dl.acm.org/doi/abs/10.1145/3371090).
+  Michael Arntzenius and Neel Krishnaswami. POPL 2020.
+
 # Credits
 This project benefited from code and ideas of many different people:
 
@@ -70,6 +77,7 @@ This project benefited from code and ideas of many different people:
 Further acknowledgments in each publication.
 
 # News
+- 2020-01-23: Updated version of this page and of Giarrusso's PhD thesis.
 - 2015-03-16: [Slides of the Paris talk online](resources/2015-01-22 ILC Paris.pdf).
 - 2015-01-22:
   [Talk about ILC project at the Paris Diderot (Paris 7) University](http://blaisorblade.github.io/blog/2015/01/15/a-talk-on-ilc/).
