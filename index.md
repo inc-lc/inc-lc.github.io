@@ -31,8 +31,7 @@ finite differencing, and apply it to higher-order languages.
     - A reformulation of that proof using (step-indexed) logical relations and
       operational semantics, for simply-typed λ-calculus (without or with
       recursion) and untyped λ-calculus (Appendix C).
-
-    Chapter 17 is superseded by the extended version of the ESOP'19 paper.
+    - Chapter 17 is superseded by the extended version of the ESOP'19 paper.
     - [Agda machine-checked proofs --- inc-lc/ilc-agda/Thesis](https://github.com/inc-lc/ilc-agda/tree/master/Thesis/), for Ch. 12-14.
 
 # Related papers
