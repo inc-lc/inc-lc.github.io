@@ -26,29 +26,36 @@
 </header>
 <h1 id="introduction">Introduction</h1>
 <p>This is the homepage for the <strong>Incremental λ-Calculus</strong> project. Our goal is to extend database technology for low-overhead incremental computation, based on finite differencing, and apply it to higher-order languages.</p>
-<h1 id="sources">Sources</h1>
-<p>On GitHub!</p>
+<h1 id="publications">Publications</h1>
+<ul class="incremental">
+<li><p><a href="https://link.springer.com/chapter/10.1007/978-3-030-17184-1_20">Incremental λ-Calculus in Cache-Transfer Style — Static Memoization by Program Transformation</a>. Paolo G. Giarrusso, Yann Régis-Gianas and Philipp Schuster. ESOP 2019. Supersedes Chapter 17 of Giarrusso’s PhD thesis.</p>
+<ul class="incremental">
+<li><a href="https://github.com/yurug/cts/blob/ae1bf7b4b7ef82167324c7ce18dc3785b7dcaab7/static-caching-extended.pdf">Extended version</a>.</li>
+<li>Supplementary material: <a href="https://github.com/yurug/cts">Implementation and Coq formalization</a>.</li>
+</ul></li>
+<li><p><a href="resources/pldi14-ilc-author-final.pdf">A theory of changes for higher-order languages — incrementalizing λ-calculi by static differentiation</a> (updated version). Yufei Cai, Paolo G. Giarrusso, Tillmann Rendel and Klaus Ostermann. PLDI 2014, pp. 145–155.</p>
 <ul class="incremental">
 <li><a href="https://github.com/inc-lc/ilc-scala">Scala prototype — inc-lc/ilc-scala</a></li>
 <li><a href="https://github.com/inc-lc/ilc-agda">Agda machine-checked proofs — inc-lc/ilc-agda</a>.</li>
 </ul>
-<h1 id="drafts">Drafts</h1>
-<ul class="incremental">
-<li><a href="resources/giarrusso-phd-thesis-2017-09-15-15.05-g22ca048.pdf">Optimizing and Incrementalizing Higher-order Collection Queries by AST Transformation</a>. Draft of Paolo G. Giarrusso’s PhD thesis. Some highlights:
-<ul class="incremental">
-<li>A novel, simpler correctness proof for ILC on simply-typed λ-calculus, where validity is captured by a logical relation (Ch. 12-13-14).</li>
-<li>A reformulation of that proof using (step-indexed) logical relations and operational semantics, for simply-typed λ-calculus (without or with recursion) and untyped λ-calculus (Appendix C).</li>
-</ul>
-This is a draft, and Chapter 17 is known to contain a few mistakes and infelicities.</li>
-</ul>
-<h1 id="papers">Papers</h1>
-<ul class="incremental">
-<li><p><a href="https://link.springer.com/chapter/10.1007/978-3-030-17184-1_20">Incremental λ-Calculus in Cache-Transfer Style — Static Memoization by Program Transformation</a>. With Yann Régis-Gianas and Philipp Schuster. ESOP’19. Implementation and Coq formalization <a href="https://github.com/yurug/cts">available</a>. <a href="https://github.com/yurug/cts/blob/ae1bf7b4b7ef82167324c7ce18dc3785b7dcaab7/static-caching-extended.pdf">Extended version</a>.</p></li>
-<li><p><a href="resources/pldi14-ilc-author-final.pdf">A theory of changes for higher-order languages — incrementalizing λ-calculi by static differentiation</a> (updated version). With Yufei Cai, Tillmann Rendel, and Klaus Ostermann. PLDI ’14, pp. 145–155.</p>
 <p><strong>Abstract</strong>:</p>
 <p>If the result of an expensive computation is invalidated by a small change to the input, the old result should be updated incrementally instead of reexecuting the whole computation. We incrementalize programs through their <em>derivative</em>. A derivative maps changes in the program’s input directly to changes in the program’s output, without reexecuting the original program. We present a program transformation taking programs to their derivatives, which is fully static and automatic, supports first-class functions, and produces derivatives amenable to standard optimization.</p>
 <p>We prove the program transformation correct in Agda for a family of simply-typed λ-calculi, parameterized by base types and primitives. A precise interface specifies what is required to incrementalize the chosen primitives.</p>
 <p>We investigate performance by a case study: We implement in Scala the program transformation, a plugin and improve performance of a nontrivial program by orders of magnitude.</p></li>
+<li><p><a href="resources/giarrusso-phd-thesis-2020-final.pdf">Optimizing and Incrementalizing Higher-order Collection Queries by AST Transformation</a>. Paolo G. Giarrusso’s PhD thesis. Some highlights:</p>
+<ul class="incremental">
+<li>A novel, simpler correctness proof for ILC on simply-typed λ-calculus, where validity is captured by a logical relation (Ch. 12-13-14).</li>
+<li>A reformulation of that proof using (step-indexed) logical relations and operational semantics, for simply-typed λ-calculus (without or with recursion) and untyped λ-calculus (Appendix C).</li>
+</ul>
+<p>Chapter 17 is superseded by the extended version of the ESOP’19 paper.</p>
+<ul class="incremental">
+<li><a href="https://github.com/inc-lc/ilc-agda/tree/master/Thesis/">Agda machine-checked proofs — inc-lc/ilc-agda/Thesis</a>, for Ch. 12-14.</li>
+</ul></li>
+</ul>
+<h1 id="related-papers">Related papers</h1>
+<p>By other authors:</p>
+<ul class="incremental">
+<li><a href="https://dl.acm.org/doi/abs/10.1145/3371090">Seminaïve evaluation for a higher-order functional language</a>. Michael Arntzenius and Neel Krishnaswami. POPL 2020.</li>
 </ul>
 <h1 id="credits">Credits</h1>
 <p>This project benefited from code and ideas of many different people:</p>
@@ -57,12 +64,14 @@ This is a draft, and Chapter 17 is known to contain a few mistakes and infelicit
 <li>Paolo G. Giarrusso</li>
 <li>Tillmann Rendel</li>
 <li>Klaus Ostermann</li>
+<li>Lourdes Del Carmen Gonzàlez Huesca</li>
 <li>Yann Régis-Gianas</li>
 <li>Philipp Schuster</li>
 </ul>
-<p>Further acknowledgments in the paper itself.</p>
+<p>Further acknowledgments in each publication.</p>
 <h1 id="news">News</h1>
 <ul class="incremental">
+<li>2020-01-23: Updated version of this page and of Giarrusso’s PhD thesis.</li>
 <li>2015-03-16: <a href="resources/2015-01-22%20ILC%20Paris.pdf">Slides of the Paris talk online</a>.</li>
 <li>2015-01-22: <a href="http://blaisorblade.github.io/blog/2015/01/15/a-talk-on-ilc/">Talk about ILC project at the Paris Diderot (Paris 7) University</a>.</li>
 <li>2014-06-07: Sources online on GitHub — see <a href="https://github.com/inc-lc/ilc-scala">inc-lc/ilc-scala</a> and <a href="https://github.com/inc-lc/ilc-agda">inc-lc/ilc-agda</a>.</li>
@@ -74,6 +83,6 @@ This is a draft, and Chapter 17 is known to contain a few mistakes and infelicit
 <li>2014-02-03: Our first paper on this project was accepted for PLDI ’14! The author’s version of the camera-ready is available.</li>
 </ul>
 <h1 id="contacts">Contacts</h1>
-<p>For any question or suggestion, feel free to contact me, Paolo G. Giarrusso, at paolo !dot! giarrusso (at) uni-tuebingen !dot! de.</p>
+<p>For any question or suggestion, feel free to contact me, Paolo G. Giarrusso, at p !dot! giarrusso (at) gmail !dot! com.</p>
 </body>
 </html>
